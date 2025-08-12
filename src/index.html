@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfólio | Analista de Segurança da Informação</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace, monospace;
+    background: #0f2027;  /* gradient background */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    text-align: center;
+    padding: 3rem 1rem 1rem;
+    border-bottom: 2px solid #0ff;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0.3rem 0;
+    color: #0ff;
+    letter-spacing: 2px;
+  }
+  header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #66fcf1;
+    margin: 0;
+  }
+  .hero {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero svg {
+    width: 120px;
+    height: 120px;
+    fill: #0ff;
+    margin-bottom: 1rem;
+  }
+  .hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #66fcf1;
+  }
+  .hero p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+  }
+  section.projects {
+    background: rgba(0, 255, 255, 0.1);
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    border-radius: 8px;
+  }
+  section.projects h3 {
+    border-bottom: 2px solid #0ff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #0ff;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .project-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .project-list li {
+    background: #112d33;
+    margin-bottom: 1rem;
+    padding: 1rem 1.2rem;
+    border-left: 4px solid #0ff;
+    transition: border-color 0.3s ease;
+    cursor: default;
+  }
+  .project-list li:hover {
+    border-color: #66fcf1;
+  }
+  .project-list li strong {
+    color: #0ff;
+  }
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    background: #071b20;
+    color: #488a92;
+  }
+
+  /* Visual circuit lines background pattern */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    background-image:
+      repeating-linear-gradient(90deg, #0ff22a22 0 1px, transparent 1px 20px),
+      repeating-linear-gradient(0deg, #0ff22a22 0 1px, transparent 1px 20px);
+    opacity: 0.15;
+    z-index: 0;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Wesley Araújo</h1>
+  <p>Analista de Segurança da Informação</p>
+</header>
+
+<main class="hero" role="main">
+  <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" title="Ícone de segurança">
+    <path d="M32 2C19.85 2 10 11.85 10 24v12c0 12.15 9.85 22 22 22s22-9.85 22-22V24C54 11.85 44.15 2 32 2zm0 4c9.94 0 18 8.06 18 18v12c0 9.94-8.06 18-18 18S14 43.94 14 34V24c0-9.94 8.06-18 18-18zm-2 16v10h4V22h-4z"/>
+  </svg>
+  <h2>Protegendo sistemas, dados e pessoas</h2>
+  <p>Sou especialista em identificar vulnerabilidades, implementar políticas de segurança e monitorar redes para mitigar riscos cibernéticos. Minha missão é garantir a integridade, confidencialidade e disponibilidade dos dados da empresa.</p>
+</main>
+
+<section class="projects" aria-label="Principais projetos e habilidades">
+  <h3>Principais Habilidades & Projetos</h3>
+  <ul class="project-list">
+    <li><strong>Teste de Penetração:</strong> Realização de pentests para identificar brechas em redes e sistemas críticos.</li>
+    <li><strong>Monitoramento de Segurança:</strong> Configuração e manutenção de sistemas SIEM e IDS para detecção de ameaças.</li>
+    <li><strong>Políticas e Compliance:</strong> Desenvolvimento de políticas de segurança alinhadas a normas como ISO 27001 e LGPD.</li>
+    <li><strong>Resposta a Incidentes:</strong> Gestão rápida e eficiente de incidentes para minimizar impactos e evitar recorrências.</li>
+    <li><strong>Criptografia:</strong> Implementação de mecanismos criptográficos para proteção de dados em trânsito e em repouso.</li>
+  </ul>
+</section>
+
+<footer>
+  © 2025 Wesley Araújo  — Conecte-se comigo: wesleyaraujo21@gmail.com | LinkedIn | GitHub
+</footer>
+
+</body>
+</html>
